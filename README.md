@@ -18,8 +18,12 @@ This project develops a recommendation system for customer personalization using
  │   ├── 04_flask_integration.ipynb # Preparing model for API deployment  
  │  
  ├── 📂 api                        # Flask API for model deployment  
- │   ├── app.py                    # Main Flask application  
- │   ├── model_loader.py            # Load trained model  
+ │   ├── 📂 enums                  # Defines enumeration types for classification  
+ │   ├── 📂 config                 # Configuration files for API settings  
+ │   ├── 📂 handler                # Request and response handlers  
+ │   ├── 📂 helpers                # Utility functions for API operations  
+ │   ├── 📂 models                 # models  
+ │   ├── app.py                    # Main Flask application    
  │   ├── requirements.txt           # Dependencies for API  
  │  
  ├── 📂 data                        # Sample dataset  
