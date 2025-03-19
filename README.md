@@ -27,7 +27,7 @@ This project develops a recommendation system for customer personalization using
  │   ├── requirements.txt           # Dependencies for API  
  │  
  ├── 📂 data                        # Sample dataset  
- │   ├── customer_data.csv          # Processed customer interaction data  
+ │   ├── data_training.csv          # Processed training (customer interaction) data  
  │  
  ├── README.md                      # Project documentation  
 ```
